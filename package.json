@@ -21,13 +21,13 @@
     "build": "babel src -d build"
   },
   "peerDependencies": {
-    "i18next": "3.*",
-    "electron": "*"
+    "i18next": "3.*"
   },
   "devDependencies": {
     "babel-cli": "*",
     "babel-plugin-add-module-exports": "*",
     "babel-preset-es2015": "*",
-    "babel-register": "*"
+    "babel-register": "*",
+    "electron": "*"
   }
 }
